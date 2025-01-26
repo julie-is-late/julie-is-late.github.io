@@ -1,5 +1,5 @@
 #theme: jekyll-theme-cayman
-theme                    : "minimal-mistakes-jekyll"
+theme                    : "minima"
 minimal_mistakes_skin    : "default"
 
 google_analytics:
