@@ -3,10 +3,10 @@ description: System's Software Engineer
 author: "Julie Shapiro"
 
 #theme: jekyll-theme-cayman
-theme                    : "minima"
+theme: "minima"
 
-github_username: julie-is-late
-bsky_username: @weeb.site
+github_username: "julie-is-late"
+bsky_username: "@weeb.site"
 
 show_excerpts: true
 
@@ -16,7 +16,7 @@ header_pages:
   - _pages/blog.md
   - _pages/photography.md
 
-include: 
+include:
   - _pages
 
 #google_analytics:
