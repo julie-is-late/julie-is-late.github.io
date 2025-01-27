@@ -1,5 +1,23 @@
+title: Julie Shapiro
+description: System's Software Engineer
+author: "Julie Shapiro"
+
 #theme: jekyll-theme-cayman
 theme                    : "minima"
-minimal_mistakes_skin    : "default"
 
-google_analytics:
+github_username: julie-is-late
+bsky_username: @weeb.site
+
+show_excerpts: true
+
+header_pages:
+  - _pages/frontpage.md
+  - _pages/resume.md
+  - _pages/blog.md
+  - _pages/photography.md
+
+include: 
+  - _pages
+
+#google_analytics:
+
