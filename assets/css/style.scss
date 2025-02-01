@@ -5,36 +5,24 @@
 
 @for $i from 1 through 6 {
     h#{$i} {
-        font: {
-            // size: $base-font-size + $heading-scale * (6 - $i);
-            family: 'SF Pro', 'Helvetica Neue', 'Futura', 'Roboto', Arial, sans-serif;
-        }
+        font-family: 'SF Pro', 'Helvetica Neue', 'Futura', 'Roboto', Arial, sans-serif;
     }
 }
 
 body {
-    font: {
-        size: 11px;
-        family: 'SF Pro', 'Helvetica Neue', 'Futura', 'Roboto', Arial, sans-serif;
-    }
+    font-family: 'SF Pro', 'Helvetica Neue', 'Futura', 'Roboto', Arial, sans-serif;
 }
-
-// footer {
-//     font: {
-//         size: 12px;
-//     }
-// }
 
 //.page-header {
 //    background-color: #3c46b9;
 //    background-image: linear-gradient(120deg, #e74ed4, #3c46b9);
 //}
 
-.inner {
-    // max-width: 1024px;
-    padding: {
-        right: 20px !important;
-        left: 20px !important;
-    }
-}
+// .inner {
+//     // max-width: 1024px;
+//     padding: {
+//         right: 20px !important;
+//         left: 20px !important;
+//     }
+// }
 
