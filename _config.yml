@@ -2,7 +2,12 @@ title: "Julie Shapiro"
 description: "System's Software Engineer"
 author: "Julie Shapiro"
 
-theme: "minima"
+# theme: "minima"
+remote_theme: jekyll/minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme
 
 github_username: "julie-is-late"
 bsky_username: "@weeb.site"
