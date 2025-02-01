@@ -1,8 +1,7 @@
-title: "Test: Julie Shapiro"
-description: System's Software Engineer
+title: "Julie Shapiro"
+description: "System's Software Engineer"
 author: "Julie Shapiro"
 
-#theme: jekyll-theme-cayman
 theme: "minima"
 
 github_username: "julie-is-late"
@@ -28,3 +27,8 @@ minima:
     - { platform: bluesky, user_url: "https://bsky.app/profile/weeb.site" }
 
 show_excerpts: true
+
+exclude:
+    - .gitignore
+    - LICENSE
+    - README.md
