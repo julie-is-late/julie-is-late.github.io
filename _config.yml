@@ -1,6 +1,9 @@
 title: "Julie Shapiro"
-description: "System's Software Engineer"
-author: "Julie Shapiro"
+description: "System's Software Engineer Specializing in Compilers and Machine Learning"
+
+author:
+  name: "Julie Shapiro"
+  email: "julie@weeb.site"
 
 # theme: "minima"
 remote_theme: jekyll/minima
@@ -23,8 +26,6 @@ header_pages:
 include:
   - _pages
 
-#google_analytics:
-
 minima:
   skin: auto
   date_format: "%Y-%m-%d"
@@ -37,3 +38,6 @@ exclude:
     - .gitignore
     - LICENSE
     - README.md
+
+footer:
+  custom_text: "© 2024 Julie Shapiro. All rights reserved."

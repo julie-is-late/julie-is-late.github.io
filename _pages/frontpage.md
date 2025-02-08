@@ -2,7 +2,7 @@
 permalink: /
 layout: home
 title: Welcome
-list_title: My website
+list_title: "My blog posts:"
 ---
 
 This is a landing page for my website, which I am making to host my resume along with some random blogs. 
