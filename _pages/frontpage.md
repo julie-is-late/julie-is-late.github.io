@@ -6,7 +6,7 @@ list_title: "My blog posts:"
 ---
 
 {% capture resume_content %}{% include_relative resume.md %}{% endcapture %}
-{{ resume_content | remove_first: "---" | remove_first: "---" | markdownify }}
+{{ resume_content | split: "---" | drop: 2 | join: "---" | markdownify }}
 
 Please check out my [github][gh] for more info!
 

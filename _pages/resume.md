@@ -5,7 +5,6 @@ title: Resume
 ---
 
 <!-- # Julie Shapiro -->
-<!-- <julie.e.shapiro@gmail.com> -->
 
 ## Experience
 
@@ -23,7 +22,7 @@ title: Resume
 - Researched, devised, and implemented new genetic and heuristic algorithms to better tune performance
 - Developed a performance sampling tool that used probabilistic programming to more accurately calculate application performance on hardware while accounting for random variables during data collection
 - Led efforts to interface with customer teams to create user-friendly tooling for a distrubted worker system, which enabled solving large-scale performance problems while simultaneously improving ease of adoption and integration
-- As a direct result of my work, NVIDIA's [CUTLASS](https://github.com/NVIDIA/cutlass) project integrated my optimization tool into their production pipeline to automatically discover optimal hyperparameter configurations before each release, ensuring maximum performance for GEMM implementations
+- As a direct result of my work, NVIDIA's [CUTLASS][cut] project integrated my optimization tool into their production pipeline to automatically discover optimal hyperparameter configurations before each release, ensuring maximum performance for GEMM implementations
 - Cited directly as being 1 of 5 reasons our Networking Business Unit (formerly Mellanox) was able to avoid a chip redesign, saving the company tens of millions from delays
 
 **Software Engineer, Deep Learning Compiler Verification Group**
@@ -58,3 +57,5 @@ title: Resume
 **Bachelor of Science in Computer Science, Minor in Mathematics**
 *Sept 2013 -- Feb 2017*
 
+
+[cut]: https://github.com/NVIDIA/cutlass
