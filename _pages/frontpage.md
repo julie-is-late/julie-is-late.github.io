@@ -5,7 +5,8 @@ title: Welcome
 list_title: "My blog posts:"
 ---
 
-{% include_relative resume.md %}
+{% capture resume_content %}{% include_relative resume.md %}{% endcapture %}
+{{ resume_content | remove_first: "---" | remove_first: "---" | markdownify }}
 
 Please check out my [github][gh] for more info!
 
