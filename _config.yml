@@ -25,14 +25,19 @@ header_pages:
 
 include:
   - _pages
+  # - assets/
 
 minima:
   skin: auto
   date_format: "%Y-%m-%d"
   # skin: solarized  ### only supported in 3.0, gh pages is 2.5.1
   social_links:
-    - { platform: github,  user_url: "https://github.com/julie-is-late" }
-    - { platform: bluesky, user_url: "https://bsky.app/profile/weeb.site" }
+    - title: GitHub
+      icon: github
+      url: "https://github.com/julie-is-late"
+    - title: Bluesky
+      icon: bluesky
+      url: "https://bsky.app/profile/weeb.site"
 
 exclude:
     - .gitignore
