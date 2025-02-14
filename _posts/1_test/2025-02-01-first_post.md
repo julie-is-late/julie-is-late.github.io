@@ -2,7 +2,7 @@
 title: "Welcome to my blog"
 date: 2025-02-01
 layout: post
-tags: test "draft"
+tags: [test, draft]
 excerpt_separator: <!--more-->
 ---
 

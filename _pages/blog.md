@@ -12,9 +12,7 @@ title: Blog archive
       </a>
     </h4>
     {% if post.tags %}
-      <h5>
-        Tags: {{ post.tags | join: ", " }}
-      </h5>
+      <p><!-- Tags:  -->{{ post.tags | join: ", " }}</p>
     {% endif %}
     {%- if site.show_excerpts -%}
       <p>{{ post.excerpt }}</p>
