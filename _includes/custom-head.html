@@ -3,13 +3,13 @@
 <link rel="shortcut icon" href="/assets/favicon.ico" />
 
 <!-- Open Graph Tags -->
-<meta property="og:title" content="Julie Shapiro | weeb.site" />
-<meta property="og:description" content="Julie's website and blog" />
-<meta property="og:image" content="https://weeb.site/assets/imgs/preview-image.jpg" />
-<meta property="og:url" content="https://weeb.site" />
+<meta property="og:title" content="{% if page.title %}{{ page.title }} | {% endif %}Julie Shapiro | weeb.site" />
+<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}Julie's website and blog{% endif %}" />
+<meta property="og:image" content="{% if page.image %}{{ page.image | absolute_url }}{% else %}https://weeb.site/assets/imgs/preview-image.jpg{% endif %}" />
+<meta property="og:url" content="{{ page.url | absolute_url }}" />
 
 <!-- Twitter Card Tags -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Julie Shapiro | weeb.site">
-<meta name="twitter:description" content="Julie's website and blog">
-<meta name="twitter:image" content="https://weeb.site/assets/imgs/preview-image.jpg">
+<meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {% endif %}Julie Shapiro | weeb.site">
+<meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}Julie's website and blog{% endif %}">
+<meta name="twitter:image" content="{% if page.image %}{{ page.image | absolute_url }}{% else %}https://weeb.site/assets/imgs/preview-image.jpg{% endif %}">

@@ -31,6 +31,8 @@ title: Resume
 - Reviewed project design and implementation and directly developed solutions to bugs created during development
 - Wrote and maintained both functional and performance tests for NVIDIA compilers in the ML domain, ranging from C++ test cases to end-to-end tests
 
+*Commits into: systemd, TensorFlow, official Arch Linux packages*
+
 *Summer internships at BP3 Global (2016), Zirra (2015), and PERQ (2014)*
 
 ## Research Interests
