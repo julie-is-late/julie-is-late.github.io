@@ -19,6 +19,6 @@ title: Blog archive
     {%- endif -%}
   </div>
   {% unless forloop.last %}
-    <hr>
+---
   {% endunless %}
 {% endfor %}
