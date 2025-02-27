@@ -15,6 +15,8 @@ My nearly eight years at NVIDIA working in the Compilers Organization has allowe
 
 Our field is one of constant change and upheaval, but I worry that as a community we are not doing enough to empower our future peers to navigate and direct this change in positive ways. I believe the only resolution to this is twofold: we need to establish a more diverse set of people in every subfield of computer science, and we need to empower STEM learners on ethical issues before they enter the field.
 
+---
+
 {% capture resume_content %}{% include_relative resume.md %}{% endcapture %}
 {{ resume_content | slice: 4, resume_content.size | split: '---' | last | markdownify }}
 
