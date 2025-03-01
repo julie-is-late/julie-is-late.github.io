@@ -1,12 +1,14 @@
 ---
-title: "Why I am changing things up"
-date: 2025-02-17
+title: "My Career as a Mosaic"
+date: 2025-02-26
 layout: post
 tags: [woke,systems engineering,computing for good]
 excerpt_separator: <!--more-->
 ---
 
-Our field is one of constant change and upheaval, but I worry that as a community we are not doing enough to empower our future peers to navigate and direct this change in positive ways. I worry that new developments will continue to uphold---possibly even reinforce---the structures and biases that serve to exclude and oppress people in underprivileged groups, not just within STEM and engineering, but in society as a whole. Throughout my career, I have repeatedly found an unwillingness to question the status quo, and I believe the only resolution to this is twofold: we need to establish a more diverse set of people in every subfield of computer science, and we need to empower STEM learners on ethical issues before they enter the field.
+### Our field is one of constant change and upheaval
+
+I worry that as a community we are not doing enough to empower our future peers to navigate and direct this change in positive ways. I worry that new developments will continue to uphold---possibly even reinforce---the structures and biases that serve to exclude and oppress people in underprivileged groups, not just within STEM and engineering, but in society as a whole. Throughout my career, I have repeatedly found an unwillingness to question the status quo, and I believe the only resolution to this is twofold: we need to establish a more diverse set of people in every subfield of computer science, and we need to empower STEM learners on ethical issues before they enter the field.
 
 <!--more-->
 
